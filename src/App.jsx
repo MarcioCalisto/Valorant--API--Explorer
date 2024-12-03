@@ -19,7 +19,7 @@ function App() {
   const consultar = async () => {
     const resultado_api = await fetch('https://valorant-api.com/v1/weapons');
     const resultado_obj = await resultado_api.json();
-    setIMG(resultado_obj.data); 
+    setIMG(resultado_obj.data);
   };
 
   return (
@@ -27,12 +27,12 @@ function App() {
       <button className="btn btn-outline-success" onClick={consultar}>
         Buscar
       </button>
-      
-        {getIMG.map((weapon, index) => (
-          <div key={index}>
-            <img src={weapon.displayIcon} />
-          </div>
-        ))}
+
+      {getIMG.map((weapon, index) => (
+        <div key={index}>
+          <img src={weapon.displayIcon} />
+        </div>
+      ))}
 
     </>
   );
