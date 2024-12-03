@@ -25,6 +25,27 @@ Este projeto é uma integração com a API de Valorant, permitindo consultar e e
 
 ## 📁 Estrutura do Projeto
 
+```plaintext
+valorantapi-integration/
+├── 📂 public/                 # Arquivos públicos estáticos
+│   └── vite.svg               # Logotipo ou ícone do Vite
+├── 📂 src/                    # Código-fonte do projeto
+│   ├── 📂 assets/             # Recursos estáticos do frontend
+│   │   └── react.svg          # Ícone do React
+│   ├── App.css                # Estilos do componente principal
+│   ├── App.jsx                # Componente principal da aplicação
+│   ├── index.css              # Estilos globais
+│   └── main.jsx               # Ponto de entrada da aplicação
+├── .gitignore                 # Arquivos e pastas ignorados pelo Git
+├── LICENSE                    # Arquivo de licença do projeto
+├── README.md                  # Documentação do projeto
+├── eslint.config.js           # Configurações do ESLint para linting do código
+├── index.html                 # Template HTML principal
+├── package-lock.json          # Dependências travadas do projeto
+├── package.json               # Metadados e dependências do projeto
+└── vite.config.js             # Configurações do Vite
+```
+
 ## 🔧 Como Rodar o Projeto
 
 ### Clone o repositório:
@@ -33,7 +54,7 @@ Este projeto é uma integração com a API de Valorant, permitindo consultar e e
 
 ### Navegue para o diretório do projeto:
 
-    cd Valorant--API--Explorer
+    cd valorantapi-integration
 
 ### Instale as dependências:
 
@@ -58,7 +79,7 @@ Este projeto é uma integração com a API de Valorant, permitindo consultar e e
 
 ### Contribuições são bem-vindas! Siga os passos abaixo para colaborar:
 
-### Fork o repositório.
+    Fork o repositório.
 
 ### Crie uma branch para sua funcionalidade/feature:
 
